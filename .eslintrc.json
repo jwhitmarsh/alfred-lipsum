@@ -1,0 +1,31 @@
+{
+  "env": {
+    "node": 1
+  },
+  "extends": "google",
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "prefer-const": 2,
+    "quotes": [2, "backtick"],
+    "max-len": [2, 180, 4, {
+      "ignoreComments": true,
+      "ignoreUrls": true
+    }],
+    "valid-jsdoc": [2, {
+      "requireReturn": false,
+      "requireReturnDescription": false,
+      "requireParamDescription": false
+    }],
+    "spaced-comment": 1,
+    "no-use-before-define": 1,
+    "no-var": 2,
+    "generator-star-spacing": 1,
+    "radix": [2, "as-needed"],
+    "object-curly-spacing": [2, "always"],
+    "arrow-parens": [2, "as-needed"],
+    "camelcase": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
